@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Postman
+Comment=Build, test and document APIs.
+Exec=postman %U
+Icon=postman
+Terminal=false
+Categories=Development;
