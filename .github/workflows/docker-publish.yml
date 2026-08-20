@@ -50,7 +50,7 @@ jobs:
           provenance: mode=max
           sbom: true
       - name: Verify package
-        run: docker run --rm ghcr.io/containerpak/postman:main sh -c 'test -x /usr/bin/postman && test -f /usr/share/applications/postman.desktop'
+        run: docker run --rm ghcr.io/containerpak/postman:main sh -c 'test -L /usr/bin/postman && test ! -e /Postman/Postman && test -f /usr/share/applications/postman.desktop'
       - name: Publish summary
         run: echo "ghcr.io/containerpak/postman@${{ steps.build.outputs.digest }}" >> "$GITHUB_STEP_SUMMARY"
 
