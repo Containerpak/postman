@@ -3,14 +3,14 @@
   "manifest_version": "3.0",
   "name": "Postman",
   "description": "Build, test and document APIs.",
-  "version": "12.27.0",
+  "version": "12.27.1",
   "image": "ghcr.io/containerpak/postman@sha256:ede784c48f2b6d639d8ae8c07208d3febcaf958f1e2eea34ac4125033f098632",
   "runtime_sources": [
     {
-      "name": "postman-linux-x64-12.27.0.tar.gz",
+      "name": "postman-linux-x64-12.27.1.tar.gz",
       "url": "https://dl.pstmn.io/download/latest/linux64",
-      "sha256": "cadf8c47e8f56af51c366f12e90cf43bd25f6d4d2a54e0f6c44372b66c435fd7",
-      "size": 200473990,
+      "sha256": "2878bc2445c2150a86627d5264fa5e5788a97dd15faa81cfdc9dd100ba132acc",
+      "size": 200487464,
       "installer": "tar",
       "architecture": "amd64"
     }
