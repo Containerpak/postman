@@ -4,7 +4,7 @@
   "name": "Postman",
   "description": "Build, test and document APIs.",
   "version": "12.28.1",
-  "image": "ghcr.io/containerpak/postman@sha256:68802697102e5dc964a5eba5095c32f8de0c98a9fcbdddd540d43a5d0ba93201",
+  "image": "ghcr.io/containerpak/postman@sha256:918e740d715d0cb1c602703cf6f100e7d9ffc7f90602fe3ea584807e1dedb0bd",
   "runtime_sources": [
     {
       "name": "postman-linux-x64-12.28.1.tar.gz",
